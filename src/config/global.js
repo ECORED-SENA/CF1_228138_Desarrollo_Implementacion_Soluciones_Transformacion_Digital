@@ -456,11 +456,6 @@ export default {
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
-          nombre: 'Diana Carolina Triana Guarnizo',
-          cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
           nombre: 'Gloria Esperanza Ortiz Russi',
           cargo: 'Diseñador Instruccional',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',

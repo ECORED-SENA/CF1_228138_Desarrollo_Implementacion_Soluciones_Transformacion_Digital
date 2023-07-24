@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Con este componente, el aprendiz profundizará en los fundamentos necesarios para diagnosticar el estado actual de la ciberseguridad en una organización, adoptando métodos de análisis y valoración de riesgos, como elementos fundamentales para definir un plan de tratamiento adecuado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -57,13 +57,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Modelo <em>OSI</em>',
+            titulo: 'Modelo OSI',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Protocolo <em>TCP/IP</em>',
+            titulo: 'Protocolo TCP/IP',
             hash: 't_1_5',
           },
           {
@@ -229,7 +229,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '10.1',
-            titulo: 'Objetivos del <em>ethical </em>hacking ',
+            titulo: 'Objetivos del <em>ethical hacking</em>',
             hash: 't_10_1',
           },
           {
@@ -269,13 +269,8 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/pdf.pdf',
-      },
-      {
         icono: 'fas fa-download',
-        titulo: 'Descargar HTML',
+        titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
       {
@@ -293,7 +288,7 @@ export default {
     },
     {
       referencia:
-        'Corporation and/or its affiliates. (2010). Modelo de referencia <em>OSI</em>. ORACLE. ',
+        'Corporation and/or its affiliates. (2010). Modelo de referencia OSI. ORACLE. ',
       link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
     },
     {
@@ -316,7 +311,7 @@ export default {
     },
     {
       referencia:
-        'Organización Internacional de Normalización. (<em>ISO</em>). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27001). ',
+        'Organización Internacional de Normalización. (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001). ',
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
@@ -354,7 +349,7 @@ export default {
     {
       termino: '<em>Malware</em>',
       significado:
-        'software diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
+        '<em>software</em> diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
     },
     {
       termino: 'Riesgo',
@@ -374,7 +369,7 @@ export default {
     {
       termino: 'Virus informático',
       significado:
-        'software que se instala en un dispositivo sin el consentimiento del usuario, con el fin de alterar el funcionamiento. ',
+        '<em>software</em> que se instala en un dispositivo sin el consentimiento del usuario, con el fin de alterar el funcionamiento. ',
     },
   ],
   complementario: [
@@ -382,7 +377,7 @@ export default {
       tema:
         '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
       referencia:
-        '<em>ISO</em>. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27005).',
+        'ISO. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27005).',
       tipo: 'Norma / Documento',
       link: 'https://www.iso.org/standard/75281.html',
     },
@@ -390,9 +385,9 @@ export default {
       tema:
         '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
       referencia:
-        '<em>ISO</em>. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27002). ',
+        'ISO. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27002). ',
       tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/standard/54533.htm',
+      link: 'https://www.iso.org/standard/54533.html',
     },
     {
       tema: '8. Amenazas y vulnerabilidades',
@@ -412,13 +407,12 @@ export default {
     },
     {
       tema: '9.2. Características, impacto y análisis de riesgos',
-      referencia:
-        '<em>ISO</em> (2018). Gestión del riesgo. Directrices (<em>ISO</em> 31000). ',
+      referencia: 'ISO (2018). Gestión del riesgo. Directrices (ISO 31000). ',
       tipo: 'Norma / Documento',
       link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
     },
     {
-      tema: '10. Ethical Hacking',
+      tema: '10. <em>Ethical Hacking</em>',
       referencia:
         'Astudillo, B. K. (2019). Hacking ético: ¡Cómo convertirse en hacker ético en 21 días o menos! Ediciones de la U.',
       tipo: 'Libro',

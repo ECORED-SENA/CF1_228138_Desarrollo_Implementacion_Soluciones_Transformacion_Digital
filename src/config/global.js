@@ -25,55 +25,47 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Fundamentos de redes y <i>networking</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Conceptos',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Características',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Tipos de redes',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Modelo OSI',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Protocolo TCP/IP',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Protocolos IPv4 e IPv6',
             hash: 't_1_6',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Enrutamiento IP',
             hash: 't_1_7',
@@ -82,7 +74,6 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Normatividad y estándares: ciberseguridad',
         desarrolloContenidos: true,
@@ -90,7 +81,6 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Normatividad y estándares: seguridad de la información',
         desarrolloContenidos: true,
@@ -98,7 +88,6 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Marco legal',
         desarrolloContenidos: true,
@@ -106,7 +95,6 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Marco jurídico',
         desarrolloContenidos: true,
@@ -114,7 +102,6 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Tipificación de delitos informáticos en Colombia',
         desarrolloContenidos: true,
@@ -122,25 +109,21 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Activos de información',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Características de los activos de información',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Tipos de activos de información',
             hash: 't_7_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.3',
             titulo: 'Técnicas de valoración de activos',
             hash: 't_7_3',
@@ -149,43 +132,36 @@ export default {
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Amenazas y vulnerabilidades',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '8.1',
             titulo: 'Características y tipos de amenazas y vulnerabilidades',
             hash: 't_8_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.2',
             titulo: 'Vulnerabilidades del sistema',
             hash: 't_8_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.3',
             titulo: 'Amenazas de ataques de denegación de servicio',
             hash: 't_8_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.4',
             titulo: 'Vulnerabilidades producidas por contraseñas',
             hash: 't_8_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.5',
             titulo: 'Vulnerabilidades producidas por usuarios',
             hash: 't_8_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.6',
             titulo: 'Otras amenazas informáticas',
             hash: 't_8_6',
@@ -194,25 +170,21 @@ export default {
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Riesgos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '9.1',
             titulo: 'Niveles de riesgo',
             hash: 't_9_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '9.2',
             titulo: 'Características, impacto y análisis de riesgos',
             hash: 't_9_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '9.3',
             titulo: 'Técnicas del tratamiento de riesgos',
             hash: 't_9_3',
@@ -221,19 +193,16 @@ export default {
       },
       {
         nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
         numero: '10',
         titulo: '<em>Ethical hacking</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '10.1',
             titulo: 'Objetivos del <em>ethical hacking</em>',
             hash: 't_10_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '10.2',
             titulo: 'Tipos de pruebas de penetración',
             hash: 't_10_2',
@@ -267,6 +236,11 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/228138_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -394,16 +368,14 @@ export default {
       referencia:
         'Gómez, V., Á. (2015). Auditoría de seguridad informática. RA-MA Editorial. ',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62464?page=14',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6422&pg=1',
     },
     {
       tema: '9. Riesgos',
       referencia:
         'Gómez V., Á. (2015). Seguridad en equipos informáticos. RA-MA Editorial.',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62466?page=1',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8105&pg=1',
     },
     {
       tema: '9.2. Características, impacto y análisis de riesgos',
@@ -416,7 +388,7 @@ export default {
       referencia:
         'Astudillo, B. K. (2019). Hacking ético: ¡Cómo convertirse en hacker ético en 21 días o menos! Ediciones de la U.',
       tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10047&pg=19',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10047&pg=1',
     },
   ],
   creditos: [

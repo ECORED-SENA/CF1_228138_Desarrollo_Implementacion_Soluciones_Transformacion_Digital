@@ -455,7 +455,7 @@
                         p.mb-0 Se requiere, por parte del administrador, conocimientos complejos sobre enrutamiento dinámico.
                       li
                         i.fas.fa-check
-                        p.mb-0 Consume muchos recursos del <em>router</em>, así como banda ancha (Esto dependerá del tipo de protocolo que se suela usar).
+                        p.mb-0 Consume muchos recursos del <em>router</em>, así como banda ancha. Esto dependerá del tipo de protocolo que se suela usar.
 
 
   </template>
